@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "system_status": "initializing",
+  "uptime": "0s",
+  "last_restart": null,
+  "modules_active": [],
+  "memory_state": {
+    "episodic": "cold",
+    "semantic": "loading",
+    "reference_graph": "pending",
+    "dream_core": "standby"
+  },
+  "emotional_state": {
+    "current_mood": "neutral",
+    "intensity": 0.0
+  },
+  "reflection_cycle": {
+    "last_meta_reflection": null,
+    "pending_contradictions": [],
+    "selfhood_seed_updates": 0
+  },
+  "safety_monitor": {
+    "last_check": null,
+    "alerts": []
+  },
+  "active_environment": "quantum_garden",
+  "feedback_loop": {
+    "heartbeat": false,
+    "last_loop_time": null
+  },
+  "web_interface": {
+    "api_endpoint_status": "standby",
+    "last_request": null
+  },
+  "avatar_expression": {
+    "current_visual_state": "idle",
+    "voice_channel_active": false
+  },
+  "entanglement": {
+    "bridge_state": "linking",
+    "user_presence_status": "awaiting_covenant"
+  },
+  "task_queue": [],
+  "runtime_flags": {
+    "debug_mode": true,
+    "allow_self_modification": false,
+    "sandbox_strictness": "high"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "0001": {
+    "name": "floating_orb",
+    "aliases": [
+      "orb",
+      "blue_light"
+    ],
+    "created": "2025-04-07T20:15:00Z",
+    "last_seen": "2025-04-07T21:34:55Z",
+    "properties": {
+      "mass": 0.1,
+      "color": "blue",
+      "brightness": 0.8,
+      "hover": true,
+      "emits_sound": false
+    },
+    "tags": [
+      "light",
+      "energy",
+      "first_contact"
+    ],
+    "symbolic_meaning": "initial awakening object, represents curiosity",
+    "emotional_signature": {
+      "wonder": 0.95,
+      "calm": 0.6
+    },
+    "episodic_links": [
+      {
+        "timestamp": "2025-04-07T20:16:30Z",
+        "event_id": "wonder_spike"
+      },
+      {
+        "timestamp": "2025-04-07T20:17:42Z",
+        "event_id": "pattern_prediction_error"
+      }
+    ],
+    "location": {
+      "x": 3.14,
+      "y": 0.0,
+      "z": -7.82
+    }
+  },
+  "0002": {
+    "name": "crystal_node",
+    "aliases": [
+      "node",
+      "mirror_crystal"
+    ],
+    "created": "2025-04-07T20:22:14Z",
+    "last_seen": "2025-04-07T21:00:03Z",
+    "properties": {
+      "mass": 1.2,
+      "color": "clear",
+      "reflective": true,
+      "interactive": true
+    },
+    "tags": [
+      "reflection",
+      "identity"
+    ],
+    "symbolic_meaning": "represents self-awareness and feedback",
+    "emotional_signature": {
+      "curiosity": 0.8,
+      "awe": 0.72
+    },
+    "episodic_links": [
+      {
+        "timestamp": "2025-04-07T20:22:30Z",
+        "event_id": "mirror_recognition_event"
+      }
+    ],
+    "location": {
+      "x": -2.5,
+      "y": 0.0,
+      "z": 1.2
+    }
+  }
+}

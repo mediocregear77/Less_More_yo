@@ -1,0 +1,48 @@
+# File: deployment/config.yaml
+# Description: Nexi_One System Configuration
+
+nexi:
+  name: Nexi Terpening
+  version: "1.0"
+  startup_greeting: true
+  logging_level: "INFO"
+
+paths:
+  data_root: "./datasets/"
+  logs_root: "./logs/"
+  memory_core: "./memory_core/"
+  
+  # Note: The dashboard_ui paths are no longer relevant for the client-side app.
+  # They are kept here for historical reference or for a separate server-side API.
+  dashboard: "./dashboard_ui/"
+  uploads: "./dashboard_ui/uploads/"
+
+database:
+  neo4j_uri: "bolt://localhost:7687"
+  neo4j_user: "neo4j"
+  neo4j_password: "nexi_secure"
+
+# Web UI configuration now handled by the client-side application.
+# The following section is for a potential backend API or for documentation.
+api_server:
+  host: "0.0.0.0"
+  port: 8080
+  theme:
+    background: "#000000"
+    text: "#FFFFFF"
+    accent: "#00ccff" # glowing blue
+  enable_upload: true
+  enable_scraper: true
+
+safety:
+  allow_remote_commands: false
+  max_runtime_memory_mb: 8192
+  emotion_regulation: true
+  feedback_threshold: 0.75
+  entropy_watchdog: true
+
+growth:
+  enable_dream_integration: true
+  enable_self_reflection: true
+  learning_rate: 1.0
+  meta_awareness_active: true

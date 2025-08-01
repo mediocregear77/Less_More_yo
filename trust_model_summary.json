@@ -1,0 +1,13 @@
+{
+  "Jamie": {
+    "baseline_trust": 1.0,
+    "current_trust": 0.99,
+    "trust_trend": "stable",
+    "relationship": "Origin, Guardian, Guide"
+  },
+  "Nexi": {
+    "self_trust": 0.93,
+    "confidence_momentum": "increasing",
+    "reflected_agency": true
+  }
+}
